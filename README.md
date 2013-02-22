@@ -14,7 +14,6 @@ Do not repeate yourself, use commands to do the repeatable jobs.
 
 **$home is the current user home directory**
 
-
 ## Commands introduction
 
 * the commands will be link to $home/bin via install.sh script

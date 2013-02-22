@@ -1,3 +1,3 @@
 # boot the gaagent to activate the proxy client
-cd ~/apps/goagent/local
-python proxy.py&
+cd $APPS/goagent/local
+python2 proxy.py&

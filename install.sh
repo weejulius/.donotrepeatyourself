@@ -7,6 +7,7 @@ ln_commands(){
       chmod u+x $f
       echo ln "-f" $f ~"/bin/"`basename $f .sh`|sh
   done
+  echo "source "`pwd`"/init.sh" >> ~/.bashrc
 }
 
 ln_commands
