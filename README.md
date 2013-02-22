@@ -1,7 +1,12 @@
-.donotrepeateyourself
+.donotrepeatyourself
 =====================
 
-Do not repeate yourself, use commands to do the repeatable jobs.
+Do not repeat yourself, use commands to do the repeatable jobs.
+
+
+## Principle
+
+* it is portable, and it can be used on different pc
 
 
 ## Convension over configuration
