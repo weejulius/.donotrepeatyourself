@@ -1,6 +1,6 @@
 #switch the current work copy to specific branch
 #usage:
-#svnswitch $branchname
+#svnswitch $branchname $project
 
 olps_url=http://svn.alibaba-inc.com/repos/ali_china/olps
 is=industry_shared
@@ -13,6 +13,7 @@ ic_local=$projects/industry_center_20120106
 iw_local=$projects/industryweb
 
 branch=$1
+project=$2
 
 merge_branch()
 {
