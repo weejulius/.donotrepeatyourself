@@ -1,7 +1,7 @@
 #boot the industry web
-cd ~/projects/industryweb
+cd $INDUSTRY_WEB
 cd deploy/target/web-deploy/bin
-export JAVA_OPTIONS="${JAVA_OPTIONS} -javaagent:~/projects/hotcode.jar -Dhotcode.confFile=~/projects/industryweb/workspace.xml -noverify"
+export JAVA_OPTIONS="${JAVA_OPTIONS} -javaagent:~/projects/hotcode.jar -Dhotcode.confFile=$INDUSTRY_WEB/workspace.xml -noverify"
 echo $JAVA_OPTIONS
 ./killws.sh
 ./startws.sh
